@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  actualbudget:
+    image: actualbudget/actual-server:latest
+    container_name: actualbudget
+    ports:
+      - "5006:5006"
+    volumes:
+      - actual_data:/data
+    restart: unless-stopped
+
+volumes:
+  actual_data:/data

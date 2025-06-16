@@ -1,0 +1,16 @@
+version: 0.1.0
+
+slug: actualbudget
+name: Actual Budget
+description: Gestisci il tuo budget in modo privato, sicuro e self-hosted.
+releaseNotes: Prima versione per Umbrel – basata sull'immagine ufficiale di Actual.
+developer: Actual Budget Team
+website: https://actualbudget.org
+repo: https://github.com/actualbudget/actual
+support: https://github.com/actualbudget/actual/discussions
+dependencies: []
+defaultPort: 5006
+icon: https://raw.githubusercontent.com/actualbudget/actual/master/docs/static/icon.png
+
+# UI Integration
+submitUrl: http://localhost:5006
