@@ -1,4 +1,17 @@
 version: 0.1.0
+manifestVersion: 1
+id: sparkles-actual.budget
+name: Actual Budget
+tagline: Replace this tagline with your app's tagline
+icon: https://avatars.githubusercontent.com/u/37879538?s=48&v=4
+category: Development
+version: "1.0.0"
+port: 5006
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
 
 slug: actualbudget
 name: Actual Budget
@@ -9,7 +22,6 @@ website: https://actualbudget.org
 repo: https://github.com/actualbudget/actual
 support: https://github.com/actualbudget/actual/discussions
 dependencies: []
-defaultPort: 5006
 icon: https://raw.githubusercontent.com/actualbudget/actual/master/docs/static/icon.png
 
 # UI Integration
