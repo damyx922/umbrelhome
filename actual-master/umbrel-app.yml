@@ -1,28 +1,37 @@
-version: 0.1.0
 manifestVersion: 1
-id: sparkles-actual.budget
+
+id: sparkles-actual-budget
 name: Actual Budget
-tagline: Replace this tagline with your app's tagline
-icon: https://avatars.githubusercontent.com/u/37879538?s=48&v=4
-category: Development
+tagline: Gestisci il tuo budget in modo privato e self-hosted
+icon: https://raw.githubusercontent.com/actualbudget/actual/master/docs/static/icon.png
+category: Finance
 version: "1.0.0"
 port: 5006
+
 description: >-
-  Add your app's description here.
+  Actual è un'applicazione open-source per la gestione del bilancio personale.
+  Salva i tuoi dati localmente, senza dipendere da terze parti o cloud esterni.
 
+  Questa versione gira in locale tramite Docker su UmbrelOS.
 
-  You can also add newlines!
-
-slug: actualbudget
-name: Actual Budget
-description: Gestisci il tuo budget in modo privato, sicuro e self-hosted.
-releaseNotes: Prima versione per Umbrel – basata sull'immagine ufficiale di Actual.
-developer: Actual Budget Team
+developer: Actual Budget
 website: https://actualbudget.org
+submitter: Il Compare
+submission: https://github.com/tuo-utente/sparkles-app-store
 repo: https://github.com/actualbudget/actual
 support: https://github.com/actualbudget/actual/discussions
-dependencies: []
-icon: https://raw.githubusercontent.com/actualbudget/actual/master/docs/static/icon.png
 
-# UI Integration
-submitUrl: http://localhost:5006
+gallery:
+  - https://raw.githubusercontent.com/actualbudget/actual/master/docs/static/screenshots/budget.png
+  - https://raw.githubusercontent.com/actualbudget/actual/master/docs/static/screenshots/accounts.png
+  - https://raw.githubusercontent.com/actualbudget/actual/master/docs/static/screenshots/transactions.png
+
+releaseNotes: >-
+  Prima integrazione con Umbrel.
+  Basata sull'immagine Docker ufficiale `actualbudget/actual-server`.
+
+dependencies: []
+
+path: ""
+defaultUsername: ""
+defaultPassword: ""
