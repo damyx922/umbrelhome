@@ -1,14 +1,19 @@
 version: "3.7"
 
 services:
-  actualbudget:
+  app_proxy:
+    environment:
+      APP_HOST: sparkles-actual-budget_server_1
+      APP_PORT: 5006
+
+  server:
     image: actualbudget/actual-server:latest
-    container_name: actualbudget
-    ports:
-      - "5006:5006"
+    container_name: sparkles-actual-budget_server
+    user: "1000:1000"
+    init: true
     volumes:
       - actual_data:/data
     restart: unless-stopped
 
 volumes:
-  actual_data:/data
+  actual_data:
